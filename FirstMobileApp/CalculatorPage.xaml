@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstMobileApp.CalculatorPage"
+             Title="CalculatorPage">
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--Birinci Sıra-->
+            <Frame Grid.Row="0" Grid.Column="0" Padding="15 20" BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50" >
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="0" Grid.Column="1" Padding="15 20" BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50">
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+
+            <!--İkinci Sıra-->
+            <Frame Grid.Row="1" Grid.Column="0" Padding="15 20" BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50" >
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="1" Padding="15 20"  BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50" >
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+
+            <!--Üçüncü Sıra-->
+            <Frame Grid.Row="2" Grid.Column="0" Padding="15 20" BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50" >
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="2" Grid.Column="1" Padding="15 20" BackgroundColor="#1CB2DF" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="50" >
+                    <Image Source="your_icon_source" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" Margin="0,0,0,10" HorizontalOptions="Center" />
+                    <Button Text="Muellim Giris" FontSize="14" TextColor="#11115B" BackgroundColor="White" Clicked="OnMuellimGirisClicked" HorizontalOptions="Center"  />
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
